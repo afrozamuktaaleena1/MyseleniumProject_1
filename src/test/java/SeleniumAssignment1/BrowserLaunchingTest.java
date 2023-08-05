@@ -12,6 +12,7 @@ public class BrowserLaunchingTest {
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
         driver.manage().window().minimize();
+        driver.getTitle();
         driver.quit();
     }
 }
